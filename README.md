@@ -1,1 +1,1 @@
-# centralcampusmanagementportal
+# Central Campus Management Portal
