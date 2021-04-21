@@ -8,5 +8,11 @@
     position: absolute;
     width: 100%;
     z-index: -1;
-    transition-delay: 0,5s;
+    animation: bildereinblenden 3s 1;
+}
+
+@keyframes bildeinblenden{
+    0% {opacity: 0.2;}
+    50% {opacity: 0.6}
+    100% {opacity: 1}
 }
