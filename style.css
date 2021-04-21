@@ -8,11 +8,11 @@
     position: absolute;
     width: 100%;
     z-index: -1;
-    animation: bildereinblenden 3s 1;
+    animation: bildeinblenden 3s 1;
 }
 
 @keyframes bildeinblenden{
     0% {opacity: 0.2;}
-    50% {opacity: 0.6}
-    100% {opacity: 1}
+    50% {opacity: 0.6;}
+    100% {opacity: 1;}
 }
