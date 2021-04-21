@@ -12,7 +12,7 @@ body{
     position: absolute;
     width: 100%;
     z-index: -1;
-    animation: bildeinblenden 1.5s 1;
+    animation: bildeinblenden 3s 1;
 }
 
 @keyframes bildeinblenden{
