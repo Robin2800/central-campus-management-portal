@@ -1,0 +1,29 @@
+table, th, td {
+    width: 100%;
+    padding: 10px;
+    font-size: smaller;
+}
+tr:nth-child(even) {
+    background-color: rgb(212, 211, 211);
+}
+table {
+    border: none;
+    border-collapse: collapse;
+}
+table td {
+    border-left: 1px solid #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+table td:first-child {
+    border-left: none;
+}
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+tr:hover:not(:first-child) {
+    cursor: pointer;
+    background-color: gray;
+}
