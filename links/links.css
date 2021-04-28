@@ -1,0 +1,68 @@
+#welcome-image {
+    position: absolute;
+    height: 230%;
+    z-index: -1;
+    animation: bildeinblenden 2s 1;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+
+@keyframes bildeinblenden{
+    0% {opacity: 0.6;}
+    100% {opacity: 1;}
+}
+
+#überschrift{
+    font-family: Rockwell, Georgia, "Times New Roman", Times, serif;
+    font-size: 5em; line-height: 0.5em;
+    margin: 0em 0.3em 0.5em 0.1em;
+    color: #d14c4c;
+    font-weight: 2000;
+    text-shadow: 
+    rgba(0,0,0,0.5) -1px 0, 
+	rgba(0,0,0,0.3) 0 -1px, 
+	rgba(255,255,255,0.5) 2px 2px, 
+	rgba(0,0,0,0.3) -1px -2px;
+}
+
+#links{
+    background: rgb(214, 213, 213);
+    position: relative;
+    width: 80%;
+    font-size: 25px;
+    padding: 20px 20px;
+    margin: 20px -30px 0px;
+    display: inline-block;
+    border-left: 7px solid #F70000;
+    border-radius: 23px;
+    box-shadow: 9px 9px 24px -7px rgba(0,0,0,0.61);
+}
+
+#links:hover { /* farbe ändern beim drüberhovern */
+    background-color: #ffa0a0;
+    transition-duration: 0.4s;
+    color: rgb(10, 10, 10);
+}
+
+#border{
+    background: rgba(190, 190, 190, 0.7);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+}
+
+#txt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: -0.4px;
+    color: #000000;
+    font-weight: 900;
+    text-decoration: none solid rgb(68, 68, 68);
+}
+
+ul.txtinfo{
+    list-style: square;
+    position: relative;
+    margin: -10px -20px 0px;
+    padding: 5px;
+    font-weight: 550;
+    padding-left: 40px;
+}
