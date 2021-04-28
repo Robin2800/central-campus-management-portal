@@ -16,6 +16,6 @@ body{
 }
 
 @keyframes bildeinblenden{
-    0% {opacity: 0.5;}
+    0% {opacity: 0.6;}
     100% {opacity: 1;}
 }
