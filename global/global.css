@@ -4,6 +4,12 @@
 body {
     margin: 0px;
 }
+.background-image {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    animation: bildeinblenden 2s 1;
+}
 #heading {
     margin-left: 5%;
 }
@@ -43,6 +49,10 @@ body {
     width: 100%;
     background-color: rgb(212, 211, 211);
     border: 1px solid black;
+}
+@keyframes bildeinblenden{
+    0% {opacity: 0.6;}
+    100% {opacity: 1;}
 }
 @media screen and (max-width: 600px) {
     .nav-items {
