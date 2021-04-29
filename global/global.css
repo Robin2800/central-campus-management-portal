@@ -55,6 +55,9 @@ body {
     100% {opacity: 1;}
 }
 @media screen and (max-width: 600px) {
+    #navigation {
+        display: block;
+    }
     .nav-items {
         float: none;
     }
