@@ -47,9 +47,15 @@ body {
     left: 0;
     right: 0;
     width: 100%;
-    background-color: rgb(212, 211, 211);
+    height:5%;
+    background-color: rgb(247, 247, 247);
     border: 1px solid black;
 }
+#impr{
+    margin-left: 47%;
+    margin-top: 0.5%;
+}
+
 @keyframes bildeinblenden{
     0% {opacity: 0.6;}
     100% {opacity: 1;}
