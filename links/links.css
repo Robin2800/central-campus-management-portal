@@ -1,16 +1,3 @@
-#welcome-image {
-    position: absolute;
-    height: 230%;
-    z-index: -1;
-    animation: bildeinblenden 2s 1;
-    animation: name duration timing-function delay iteration-count direction fill-mode;
-}
-
-@keyframes bildeinblenden{
-    0% {opacity: 0.6;}
-    100% {opacity: 1;}
-}
-
 #überschrift{
     font-family: Rockwell, Georgia, "Times New Roman", Times, serif;
     font-size: 5em; line-height: 0.5em;

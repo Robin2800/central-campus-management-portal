@@ -6,12 +6,42 @@
     <link rel="stylesheet" href="docs.css">
 </head>
 <body>
-    <nav id="navigation">
-        <p class="nav-items"><a class="nav-items-link" href="../links/links.html">Nützliche Links</a></p>
-        <p class="nav-items"><a class="nav-items-link" id="opened" href="#">Wichtige Dokumente</a></p>
-        <p class="nav-items"><a class="nav-items-link" href="../calendar/calendar.html">Kurskalender</a></p>
-    </nav>
+    <header id="header">
+        <h1 id="heading">Management Portal</h1>
+        <nav id="navigation">
+            <p class="nav-items"><a class="nav-items-link" href="../links/links.html">Nützliche Links</a></p>
+            <p class="nav-items"><a class="nav-items-link" id="opened" href="#">Wichtige Dokumente</a></p>
+            <p class="nav-items"><a class="nav-items-link" href="../calendar/calendar.html">Kurskalender</a></p>
+        </nav>
+    </header>
     <div id="content">
+        <input type="text" id="searchInput" onkeyup="search()" placeholder="Suchbegriff">
+        <table id="table">
+            <tr>
+                <th>Dokumentenname</th>
+                <th>Link</th>
+            </tr>
+            <tr onclick="window.open('https://github.com/Robin2800/central-campus-management-portal/branches')">
+                <td>GitHub</td>
+                <td>https://github.com/Robin2800/central-campus-management-portal/branches</td>
+            </tr>
+            <tr>
+                <td>Test Docks</td>
+                <td>https://TestLink.com/test/link/</td>
+            </tr>
+            <tr>
+                <td>TextDocs</td>
+                <td>https://TestLink.com/test/link/</td>
+            </tr>
+            <tr>
+                <td>TestDogs</td>
+                <td>https://TestLink.com/test/link/</td>
+            </tr>
+        </table>
     </div>
+    <footer id="footer">
+        <p>Impressum</p>
+    </footer>
+
     <script src="docs.js"></script>
 </body>

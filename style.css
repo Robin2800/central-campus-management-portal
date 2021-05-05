@@ -8,14 +8,3 @@ body{
     background-color: rgba(0, 0, 0, 0.527);
     padding: 15px;
 }
-#welcome-image {
-    position: absolute;
-    width: 100%;
-    z-index: -1;
-    animation: bildeinblenden 2s 1;
-}
-
-@keyframes bildeinblenden{
-    0% {opacity: 0.6;}
-    100% {opacity: 1;}
-}
