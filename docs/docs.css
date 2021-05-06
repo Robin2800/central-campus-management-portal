@@ -6,6 +6,9 @@ table, th, td {
 tr:nth-child(even) {
     background-color: rgb(212, 211, 211);
 }
+tr:nth-child(odd) {
+    background-color: white;
+}
 table {
     border: none;
     border-collapse: collapse;
@@ -25,5 +28,10 @@ th {
 }
 tr:hover:not(:first-child) {
     cursor: pointer;
-    background-color: gray;
+    background-color: rgb(202, 156, 156);
+}
+#searchInput {
+    height: 30px;
+    width: 250px;
+    margin-bottom: 20px;
 }

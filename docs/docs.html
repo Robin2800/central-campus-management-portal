@@ -8,13 +8,14 @@
 <body>
     <header id="header">
 
-        <h1 id="heading"> <a href="../index.html">Management Portal</a></h1>
+        <h1 id="heading"><a class="heading-link" href="../index.html">Management Portal</a></h1>
         <nav id="navigation">
             <p class="nav-items"><a class="nav-items-link" href="../links/links.html">Nützliche Links</a></p>
             <p class="nav-items"><a class="nav-items-link" id="opened" href="#">Wichtige Dokumente</a></p>
             <p class="nav-items"><a class="nav-items-link" href="../calendar/calendar.html">Kurskalender</a></p>
         </nav>
     </header>
+    <img class="background-image" src="../images/dhbw.jpg">
     <div id="content">
         <input type="text" id="searchInput" onkeyup="search()" placeholder="Suchbegriff">
         <table id="table">
@@ -26,23 +27,22 @@
                 <td>GitHub</td>
                 <td>https://github.com/Robin2800/central-campus-management-portal/branches</td>
             </tr>
-            <tr>
+            <tr onclick="window.open('#')">
                 <td>Test Docks</td>
                 <td>https://TestLink.com/test/link/</td>
             </tr>
-            <tr>
+            <tr onclick="window.open('#')">
                 <td>TextDocs</td>
                 <td>https://TestLink.com/test/link/</td>
             </tr>
-            <tr>
+            <tr onclick="window.open('#')">
                 <td>TestDogs</td>
                 <td>https://TestLink.com/test/link/</td>
             </tr>
         </table>
     </div>
-    <footer id="footer"><a href ="../Impressum/impressum.html">
+    <footer id="footer" onclick="location.href='../impressum/impressum.html'">
         <p id="impr">Impressum</p>
-    </a>
     </footer>
 
     <script src="docs.js"></script>
