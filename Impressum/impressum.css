@@ -1,0 +1,60 @@
+#überschrift{
+    font-family: Rockwell, Georgia, "Times New Roman", Times, serif;
+    font-size: 3.5em; line-height: 0.3em;
+    margin: 0em 0.3em 0.5em 0.1em;
+    color: #d14c4c;
+    font-weight: 600;
+    text-shadow: 
+    rgba(0,0,0,0.5) -1px 0, 
+	rgba(0,0,0,0.3) 0 -1px, 
+	rgba(255,255,255,0.5) 2px 2px, 
+	rgba(0,0,0,0.3) -1px -2px;
+}
+
+.kont{ 
+    position: absolute;
+    top: 40%;
+    left:5%;
+    font: 700;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    background: rgba(190, 190, 190, 0.7);
+    width: 85%;
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+}
+span {
+	color: hsl(0, 100%, 50%);
+}
+.col{ 
+    position: absolute;
+    hyphens: auto;
+    text-align: justify;
+    column-rule: 4px double #000000;
+    column-width: 400px;
+    font-weight: 700;
+    background: rgba(190, 190, 190, 0.7);
+    width: 85%;
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    top: 79.5%;
+    left: 5%;
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.imp{ 
+    position: absolute;
+    top:22.5%;
+    left: 5%;
+    font-family: Rockwell, Georgia, "Times New Roman", Times, serif;
+    font-size: 2.5em; line-height: 0.3em;
+    margin: 0em 0.3em 0.5em 0.1em;
+    color: #d14c4c;
+    font-weight: 600;
+    text-shadow: 
+    rgba(0,0,0,0.5) -1px 0, 
+	rgba(0,0,0,0.3) 0 -1px, 
+	rgba(255,255,255,0.5) 2px 2px, 
+	rgba(0,0,0,0.3) -1px -2px;
+}
