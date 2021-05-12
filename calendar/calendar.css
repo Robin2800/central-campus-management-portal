@@ -1,0 +1,9 @@
+#class_select {
+    height: 30px;
+    width: 250px;
+    margin-bottom: 20px;
+}
+#open-web-calendar {
+    opacity: 0.95;
+    display: none;
+}
