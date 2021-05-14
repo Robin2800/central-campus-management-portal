@@ -11,7 +11,7 @@
 	rgba(0,0,0,0.3) -1px -2px;
 }
 
-#links{
+.links{
     background: rgb(214, 213, 213);
     position: relative;
     width: 100%;
@@ -22,22 +22,25 @@
     border-left: 7px solid #F70000;
     border-radius: 23px;
     box-shadow: 9px 9px 24px -7px rgba(0,0,0,0.61);
+    color: darkgreen;
+    text-decoration: none;
 }
 
-#links:hover { /* farbe ändern beim drüberhovern */
+.links:hover { /* farbe ändern beim drüberhovern */
     background-color: #ffa0a0;
     transition-duration: 0.4s;
     color: rgb(10, 10, 10);
+    text-decoration: underline;
 }
 
-#border{
+.border{
     background: rgba(190, 190, 190, 0.7);
     width: 80%;
     -webkit-background-clip: padding-box; /* for Safari */
     background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
 }
 
-#txt{
+.txt{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     letter-spacing: 0.2px;

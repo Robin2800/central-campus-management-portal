@@ -24,7 +24,13 @@
     background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
 }
 span {
-	color: hsl(0, 100%, 50%);
+	color: crimson;
+}
+.mail {
+    color: darkgreen;
+}
+.mail:hover {
+    color: green;
 }
 .col{ 
     position: absolute;
