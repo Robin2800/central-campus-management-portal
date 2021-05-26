@@ -18,6 +18,11 @@
   bottom: 70px;
   width: 100%;
   text-align: center;
+  font-family: sans-serif;
+  text-shadow:  1px  1px 1px black,
+                1px -1px 1px black,
+               -1px  1px 1px black,
+               -1px -1px 1px black;
 }
 
 /* Number text (1/3 etc) */
@@ -26,6 +31,11 @@
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
+  font-family: sans-serif;
+  text-shadow:  1px  1px 1px black,
+                1px -1px 1px black,
+               -1px  1px 1px black,
+               -1px -1px 1px black;
 }
 
 /* The dots/bullets/indicators */
