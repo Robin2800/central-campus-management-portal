@@ -29,8 +29,10 @@ body {
 .heading-link:hover {
     color: rgb(255, 0, 0);
     text-decoration: none;
+    animation: changeColor; /* Animation wird innerhalb des entsprechenden keyframes unten definiert */
+    animation-duration: 2s; /* Animationsdauer auf 2 Sekunden */
+    animation-iteration-count: infinite;
 }
-
 #navigation {
     background-color: rgb(212, 211, 211);
     border: 1px solid gray;
@@ -78,6 +80,13 @@ body {
 @keyframes bildeinblenden{
     0% {opacity: 0.6;}
     100% {opacity: 1;}
+}
+@keyframes changeColor {
+    /* Animierter Farbverlauf von schwarz zu bronze zu schwarz */
+    0% {color: black;} /* Zu Beginn der Animation Hintergrundfarbe des Elements schwarz */
+    25% {color: red;}
+    75% {color: red;}
+    100% {color: black;} /* Zum Schluss der Animation Hintergrundfarbe des Elements schwarz */
 }
 @media screen and (max-width: 600px) {
     #navigation {
