@@ -1,5 +1,4 @@
-table, th, td {
-    width: 100%;
+th, td {
     padding: 10px;
     font-size: smaller;
 }
@@ -10,17 +9,20 @@ tr:nth-child(odd) {
     background-color: white;
 }
 table {
+    width: 100%;
+    table-layout: fixed;
     border: none;
     border-collapse: collapse;
 }
-table td {
+td {
+    line-height: 300%;
+}
+td:nth-child(2) {
     border-left: 1px solid #000;
+    max-width: 0;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-}
-table td:first-child {
-    border-left: none;
 }
 th {
     border: 1px solid black;

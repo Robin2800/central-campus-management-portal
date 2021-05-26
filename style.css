@@ -9,28 +9,22 @@
     padding: 15px;
 } */
 
-* {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
-img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-    left: 0%;
-    top: 23%;
     width: 100%;
-    position: absolute;
+    z-index: -1;
 }
 
 /* Caption text */
 .text {
   color: #f2f2f2;
   font-size: 20px;
-  padding: 8px 12px;
-  position: absolute;
-  z-index: 1000;
-  margin-bottom: 20px;
-  bottom: 20px;
+  padding: 8px 0px;
+  position: relative;
+  bottom: 70px;
   width: 100%;
   text-align: center;
   font-family: sans-serif;
@@ -46,30 +40,28 @@ img {vertical-align: middle;}
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
-<<<<<<< Updated upstream
   top: 0;
-=======
   font-family: sans-serif;
   text-shadow:  1px  1px 1px black,
                 1px -1px 1px black,
                -1px  1px 1px black,
                -1px -1px 1px black;
->>>>>>> Stashed changes
 }
 
 /* The dots/bullets/indicators */
 .dot {
-  position: absolute;
+  position: relative;
   height: 15px;
   width: 15px;
-  background-color: rgb(0, 0, 0);
+  background-color: rgba(182, 82, 102, 0.5);
   border-radius: 50%;
   display: inline-block;
+  bottom: 70px;
   transition: background-color 0.6s ease;
 }
 
 .active {
-  background-color: #717171;
+  background-color: crimson;
 }
 
 /* Fading animation */
