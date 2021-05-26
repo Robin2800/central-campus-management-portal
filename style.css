@@ -33,6 +33,11 @@ img {vertical-align: middle;}
   bottom: 20px;
   width: 100%;
   text-align: center;
+  font-family: sans-serif;
+  text-shadow:  1px  1px 1px black,
+                1px -1px 1px black,
+               -1px  1px 1px black,
+               -1px -1px 1px black;
 }
 
 /* Number text (1/3 etc) */
@@ -41,7 +46,15 @@ img {vertical-align: middle;}
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
+<<<<<<< Updated upstream
   top: 0;
+=======
+  font-family: sans-serif;
+  text-shadow:  1px  1px 1px black,
+                1px -1px 1px black,
+               -1px  1px 1px black,
+               -1px -1px 1px black;
+>>>>>>> Stashed changes
 }
 
 /* The dots/bullets/indicators */
