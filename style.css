@@ -1,28 +1,19 @@
-/*body{
-    background-color: white;
+.mySlides {
+  display: none;
 }
-
-#welcome-message {
-    width: 50%;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.527);
-    padding: 15px;
-} */
-
-body {font-family: Verdana, sans-serif;}
-.mySlides {display: none;}
 
 /* Slideshow container */
 .slideshow-container {
-    width: 100%;
-    z-index: -1;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
 }
 
 /* Caption text */
 .text {
   color: #f2f2f2;
   font-size: 20px;
-  padding: 8px 0px;
+  padding: 0px;
   position: relative;
   bottom: 70px;
   width: 100%;
@@ -55,7 +46,7 @@ body {font-family: Verdana, sans-serif;}
   background-color: rgba(182, 82, 102, 0.5);
   border-radius: 50%;
   display: inline-block;
-  bottom: 70px;
+  bottom: 60px;
   transition: background-color 0.6s ease;
 }
 
