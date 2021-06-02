@@ -36,7 +36,7 @@ span {
     position: absolute;
     hyphens: auto;
     text-align: justify;
-    column-rule: 4px double #000000;
+    column-rule: 8px double #000000;
     column-width: 400px;
     font-weight: 700;
     background: rgba(190, 190, 190, 0.7);
